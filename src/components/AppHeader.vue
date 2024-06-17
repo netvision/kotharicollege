@@ -1,5 +1,4 @@
 <script setup>
-import logo from '@/assets/gss-logo.png'
 const menuItems = [
         { label: 'Home', url: '/' },
         { label: 'Principal & Staff', url: '/staff' },
