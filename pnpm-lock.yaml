@@ -65,8 +65,8 @@ devDependencies:
     specifier: ^2.1.78
     version: 2.2.219
   '@intlify/vite-plugin-vue-i18n':
-    specifier: ^5.0.0
-    version: 5.0.1(vite@3.2.10)(vue-i18n@9.13.1)
+    specifier: ^7.0.0
+    version: 7.0.0(vite@3.2.10)(vue-i18n@9.13.1)
   '@vitejs/plugin-vue':
     specifier: ^3.0.0
     version: 3.2.0(vite@3.2.10)(vue@3.4.29)
@@ -1452,9 +1452,9 @@ packages:
       - supports-color
     dev: true
 
-  /@intlify/bundle-utils@7.0.0(vue-i18n@9.13.1):
-    resolution: {integrity: sha512-+/RBsYWbiZcs97RyVb4mrsSrLmIMaI6evj30jI9f1psjXx+syRbf0ab63I5SIz290EOm6TE80fTst/Xjel+D9w==}
-    engines: {node: '>= 14.16'}
+  /@intlify/bundle-utils@3.4.0(vue-i18n@9.13.1):
+    resolution: {integrity: sha512-2UQkqiSAOSPEHMGWlybqWm4G2K0X+FyYho5AwXz6QklSX1EY5EDmOSxZmwscn2qmKBnp6OYsme5kUrnN9xrWzQ==}
+    engines: {node: '>= 12'}
     peerDependencies:
       petite-vue-i18n: '*'
       vue-i18n: '*'
@@ -1464,14 +1464,9 @@ packages:
       vue-i18n:
         optional: true
     dependencies:
-      '@intlify/message-compiler': 9.3.0-beta.20
-      '@intlify/shared': 9.3.0-beta.20
-      acorn: 8.12.0
-      escodegen: 2.1.0
-      estree-walker: 2.0.2
+      '@intlify/message-compiler': 10.0.0-beta.1
+      '@intlify/shared': 10.0.0-beta.1
       jsonc-eslint-parser: 1.4.1
-      magic-string: 0.30.10
-      mlly: 1.7.1
       source-map: 0.6.1
       vue-i18n: 9.13.1(vue@3.4.29)
       yaml-eslint-parser: 0.3.2
@@ -1484,20 +1479,20 @@ packages:
       '@intlify/message-compiler': 9.13.1
       '@intlify/shared': 9.13.1
 
+  /@intlify/message-compiler@10.0.0-beta.1:
+    resolution: {integrity: sha512-rBmXBZzDgq3yPkL/3/r9uK0nrsJOYHSpaW0mtGBxxjt9pY9vaPL0UAKbVAjFPRnfEY41ixgpkpTjai6IKZ+hvg==}
+    engines: {node: '>= 16'}
+    dependencies:
+      '@intlify/shared': 10.0.0-beta.1
+      source-map-js: 1.2.0
+    dev: true
+
   /@intlify/message-compiler@9.13.1:
     resolution: {integrity: sha512-SKsVa4ajYGBVm7sHMXd5qX70O2XXjm55zdZB3VeMFCvQyvLew/dLvq3MqnaIsTMF1VkkOb9Ttr6tHcMlyPDL9w==}
     engines: {node: '>= 16'}
     dependencies:
       '@intlify/shared': 9.13.1
       source-map-js: 1.2.0
-
-  /@intlify/message-compiler@9.3.0-beta.20:
-    resolution: {integrity: sha512-hwqQXyTnDzAVZ300SU31jO0+3OJbpOdfVU6iBkrmNpS7t2HRnVACo0EwcEXzJa++4EVDreqz5OeqJbt+PeSGGA==}
-    engines: {node: '>= 16'}
-    dependencies:
-      '@intlify/shared': 9.3.0-beta.20
-      source-map-js: 1.2.0
-    dev: true
 
   /@intlify/shared@10.0.0-beta.1:
     resolution: {integrity: sha512-61MnYhgqS/TyAto9CXOltHlhK2WflLBcKpIkRhZCUL2IkiVvh7qKevsqZ3RYZylyC3q19ajLW6mB+iJtnbAOpg==}
@@ -1508,14 +1503,10 @@ packages:
     resolution: {integrity: sha512-u3b6BKGhE6j/JeRU6C/RL2FgyJfy6LakbtfeVF8fJXURpZZTzfh3e05J0bu0XPw447Q6/WUp3C4ajv4TMS4YsQ==}
     engines: {node: '>= 16'}
 
-  /@intlify/shared@9.3.0-beta.20:
-    resolution: {integrity: sha512-RucSPqh8O9FFxlYUysQTerSw0b9HIRpyoN1Zjogpm0qLiHK+lBNSa5sh1nCJ4wSsNcjphzgpLQCyR60GZlRV8g==}
-    engines: {node: '>= 16'}
-    dev: true
-
-  /@intlify/vite-plugin-vue-i18n@5.0.1(vite@3.2.10)(vue-i18n@9.13.1):
-    resolution: {integrity: sha512-+LAUdm5PxGtLrUYgD2Wg9SINmLmhZqrcTnzccfqopca5NvaXWOPnQR4cQOkn82qLuyjWdCYC1BoqMHWBWX/MyQ==}
+  /@intlify/vite-plugin-vue-i18n@7.0.0(vite@3.2.10)(vue-i18n@9.13.1):
+    resolution: {integrity: sha512-2TbDOQ8XD+vkc0s5OFmr+IY/k4mYMC7pzvx0xGQn+cU/ev314+yi7Z7N7rWcBgiYk1WOUalbGSo3d4nJDxOOyw==}
     engines: {node: '>= 14.6'}
+    deprecated: This plugin support until Vite 3. If you would like to use on Vite 4, please use @intlify/unplugin-vue-i18n
     peerDependencies:
       petite-vue-i18n: '*'
       vite: ^2.9.0 || ^3.0.0
@@ -1528,7 +1519,7 @@ packages:
       vue-i18n:
         optional: true
     dependencies:
-      '@intlify/bundle-utils': 7.0.0(vue-i18n@9.13.1)
+      '@intlify/bundle-utils': 3.4.0(vue-i18n@9.13.1)
       '@intlify/shared': 10.0.0-beta.1
       '@rollup/pluginutils': 4.2.1
       debug: 4.3.5
@@ -5847,6 +5838,7 @@ packages:
 
   /workbox-cacheable-response@6.6.0:
     resolution: {integrity: sha512-JfhJUSQDwsF1Xv3EV1vWzSsCOZn4mQ38bWEBR3LdvOxSPgB65gAM6cS2CX8rkkKHRgiLrN7Wxoyu+TuH67kHrw==}
+    deprecated: workbox-background-sync@6.6.0
     dependencies:
       workbox-core: 6.6.0
     dev: true
@@ -5868,6 +5860,7 @@ packages:
 
   /workbox-google-analytics@6.6.0:
     resolution: {integrity: sha512-p4DJa6OldXWd6M9zRl0H6vB9lkrmqYFkRQ2xEiNdBFp9U0LhsGO7hsBscVEyH9H2/3eZZt8c97NB2FD9U2NJ+Q==}
+    deprecated: It is not compatible with newer versions of GA starting with v4, as long as you are using GAv3 it should be ok, but the package is not longer being maintained
     dependencies:
       workbox-background-sync: 6.6.0
       workbox-core: 6.6.0
