@@ -29,6 +29,9 @@ dependencies:
   autoprefixer:
     specifier: ^10.4.7
     version: 10.4.19(postcss@8.4.38)
+  pdf-vue3:
+    specifier: ^1.0.12
+    version: 1.0.12
   pinia:
     specifier: ^2.0.16
     version: 2.1.7(typescript@4.9.5)(vue@3.4.29)
@@ -4290,6 +4293,10 @@ packages:
   /pathval@1.1.1:
     resolution: {integrity: sha512-Dp6zGqpTdETdR63lehJYPeIOqpiNBNtc7BpWSLrOje7UaIsE5aY92r/AunQA7rsXvet3lrJ3JnZX29UPTKXyKQ==}
     dev: true
+
+  /pdf-vue3@1.0.12:
+    resolution: {integrity: sha512-7SMTx1RfRwdc+2WPniDzqM8MxJLqTNNzdyV0SeQTxeRLJGndb5Wv/fz5afO13oBSIvvaqcbZ/S3gF+XjqkSb9g==}
+    dev: false
 
   /picocolors@1.0.1:
     resolution: {integrity: sha512-anP1Z8qwhkbmu7MFP5iTt+wQKXgwzf7zTyGlcdzabySa9vd0Xt392U0rVmz9poOaBj0uHJKyyo9/upk0HrEQew==}

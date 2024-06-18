@@ -32,8 +32,13 @@ declare module '@vue-router/routes' {
     'home': RouteRecordInfo<'home', '/', Record<never, never>, Record<never, never>>,
     'not-found': RouteRecordInfo<'not-found', '/:all(.*)', { all: ParamValue<true> }, { all: ParamValue<false> }>,
     '/contact': RouteRecordInfo<'/contact', '/contact', Record<never, never>, Record<never, never>>,
-    '/documents': RouteRecordInfo<'/documents', '/documents', Record<never, never>, Record<never, never>>,
+    '/conversion': RouteRecordInfo<'/conversion', '/conversion', Record<never, never>, Record<never, never>>,
     '/facilities': RouteRecordInfo<'/facilities', '/facilities', Record<never, never>, Record<never, never>>,
+    '/land': RouteRecordInfo<'/land', '/land', Record<never, never>, Record<never, never>>,
+    '/map': RouteRecordInfo<'/map', '/map', Record<never, never>, Record<never, never>>,
+    '/ncte': RouteRecordInfo<'/ncte', '/ncte', Record<never, never>, Record<never, never>>,
+    '/noc': RouteRecordInfo<'/noc', '/noc', Record<never, never>, Record<never, never>>,
+    '/society': RouteRecordInfo<'/society', '/society', Record<never, never>, Record<never, never>>,
     '/staff': RouteRecordInfo<'/staff', '/staff', Record<never, never>, Record<never, never>>,
   }
 }

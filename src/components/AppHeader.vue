@@ -3,7 +3,18 @@ const menuItems = [
         { label: 'Home', url: '/' },
         { label: 'Principal & Staff', url: '/staff' },
 		{ label: 'Facilities', url: '/facilities' },
-		{ label: 'Documents', url: '/documents' },
+		{
+			label: 'Documents',
+			subMenu: [
+				{ label: 'Land Document', url: '/land' },
+				{ label: 'Land Coversion', url: '/conversion' },
+				{ label: 'Building Map', url: '/map' },
+				{ label: 'Society Registration', url: '/society' },
+				{ label: 'Govt. NOC', url: '/noc' },
+				{ label: 'NCTE Recognition', url: '/ncte' }
+			],
+			showArrow: true
+		},
 		{ label: 'Contact', url: '/contact' },
       ]
 
