@@ -1,5 +1,6 @@
 import { defineConfig } from 'vite';
 import vue from '@vitejs/plugin-vue';
+import path from 'path';
 import { resolve } from 'path';
 import Components from 'unplugin-vue-components/vite';
 import AutoImport from 'unplugin-auto-import/vite';
@@ -96,6 +97,7 @@ export default defineConfig({
 	resolve: {
 		alias: {
 			'@': resolve(__dirname, './src'),
+			'pdf-vue3': path.resolve(__dirname, 'node_modules/pdf-vue3/dist/pdf-vue3.js'),
 		},
 	},
 	server: {
