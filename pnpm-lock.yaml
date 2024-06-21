@@ -65,8 +65,8 @@ dependencies:
 
 devDependencies:
   '@iconify/json':
-    specifier: ^2.1.78
-    version: 2.2.219
+    specifier: ^2.2.221
+    version: 2.2.221
   '@intlify/vite-plugin-vue-i18n':
     specifier: ^5.0.0
     version: 5.0.1(vite@3.2.10)(vue-i18n@9.13.1)
@@ -1430,8 +1430,8 @@ packages:
       supercluster: 8.0.1
     dev: false
 
-  /@iconify/json@2.2.219:
-    resolution: {integrity: sha512-q8asqbM61woVZ9rJGm/gvW46i5vdeHrq4TqZQ/5wF5ypk4pAZU9+4qVa5NQE2MZngYkMPeO68PDGGl7WaEV8jQ==}
+  /@iconify/json@2.2.221:
+    resolution: {integrity: sha512-pCyE3Z3kOq2OmYm80nnyTrYdDzGKIyzNwM5+ABL1gguOTslhu4QBZUO+o5gMiolh3eywcOd8CgN00uBWVHbzyg==}
     dependencies:
       '@iconify/types': 2.0.0
       pathe: 1.1.2
@@ -5854,6 +5854,7 @@ packages:
 
   /workbox-cacheable-response@6.6.0:
     resolution: {integrity: sha512-JfhJUSQDwsF1Xv3EV1vWzSsCOZn4mQ38bWEBR3LdvOxSPgB65gAM6cS2CX8rkkKHRgiLrN7Wxoyu+TuH67kHrw==}
+    deprecated: workbox-background-sync@6.6.0
     dependencies:
       workbox-core: 6.6.0
     dev: true
@@ -5875,6 +5876,7 @@ packages:
 
   /workbox-google-analytics@6.6.0:
     resolution: {integrity: sha512-p4DJa6OldXWd6M9zRl0H6vB9lkrmqYFkRQ2xEiNdBFp9U0LhsGO7hsBscVEyH9H2/3eZZt8c97NB2FD9U2NJ+Q==}
+    deprecated: It is not compatible with newer versions of GA starting with v4, as long as you are using GAv3 it should be ok, but the package is not longer being maintained
     dependencies:
       workbox-background-sync: 6.6.0
       workbox-core: 6.6.0
