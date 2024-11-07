@@ -11,7 +11,8 @@ const menuItems = [
 				{ label: 'Building Map', url: '/map' },
 				{ label: 'Society Registration', url: '/society' },
 				{ label: 'Govt. NOC', url: '/noc' },
-				{ label: 'NCTE Recognition', url: '/ncte' }
+				{ label: 'NCTE Recognition', url: '/ncte' },
+				{ label: 'Latest Balance Sheet', url: '/balancesheet' }
 			],
 			showArrow: true
 		},
