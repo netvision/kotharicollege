@@ -1,5 +1,8 @@
 <script setup>
-	import slide from '@/assets/building.jpg';
+	import slide from '@/assets/21.jpg';
+	import slide1 from '@/assets/22.jpg';
+	import slide2 from '@/assets/25.jpg';
+	import slide3 from '@/assets/26.jpg';
 	useHead({
 		title: 'Kothari Mahila Mahavidyalay, SankhanTal',
 	});
@@ -30,6 +33,17 @@
 			style="backface-visibility: hidden">
 			<img
 				:src="slide"
+				class="block w-full object-cover"
+				alt="..." />
+
+			</div>
+			<div
+			class="relative float-left -mr-[100%] w-full transition-transform duration-[600ms] ease-in-out motion-reduce:transition-none"
+			data-twe-carousel-active
+			data-twe-carousel-item
+			style="backface-visibility: hidden">
+			<img
+				:src="slide1"
 				class="block w-full object-cover"
 				alt="..." />
 

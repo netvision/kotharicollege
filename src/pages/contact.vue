@@ -1,7 +1,7 @@
 <script setup>
 import { GoogleMap, Marker } from 'vue3-google-map'
 const mapApi = ref(import.meta.env.VITE_MAPKEY)
-const center = { lat: 28.314596, lng: 75.4322150 }
+const center = { lat: 28.377485, lng: 75.411586 }
 </script>
 <template>
     <AppHeader />
